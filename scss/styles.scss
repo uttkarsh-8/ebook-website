@@ -1,0 +1,47 @@
+.navbar .btn-outline-light:hover {
+  background-color: #00b4d8;
+  color: #333;
+}
+
+.nav-link:hover {
+  box-shadow: 0 2px 4px 0 rgba(192, 193, 194, 0.2);
+}
+
+.navbar-sticky {
+  opacity: 0.9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.navbar {
+  transition: all 0.5s ease-in-out;
+}
+
+.header {
+  background: url(../images/header-background.jpg);
+  background-size: cover;
+}
+
+.modal-content img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+@media (max-width: 1000px) {
+  .hero .image-container {
+    display: inline-flex;
+    justify-content: center;
+  }
+
+  .hero .text-container {
+    text-align: center;
+  }
+}
+
+.map iframe {
+  left: 0;
+  top: 0;
+  height: 400px;
+  width: 100%;
+  border: none;
+}
